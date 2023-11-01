@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/advogadoslogomini.png" type="image/x-icon">
+    <!--Link para icones-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Advogados Associados</title>
 </head>
 
@@ -23,7 +25,8 @@
         </h2>
         <div id="areadeatuacao">
             <h2>Áreas de Atuação
-                <nav>
+                <i id="menu_burguer" class="material-icons" onclick="clickMenu()">menu</i>
+                <nav id="menu_itens">
                     <a href="index.html">Quem Somos</a>
                     <a href="servicos.html">Serviços</a>
                     <a href="#">Contato</a>
@@ -62,6 +65,24 @@
     <footer>
         <a href="https://petry85.github.io/Portfolio/">Site criado por P3 - Landing Pages</a>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (menu_itens.style.display == 'block') {
+                menu_itens.style.display = 'none'
+            } else {
+                menu_itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menu_itens.style.display = 'block'
+            } else {
+                menu_itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 
 </html>
