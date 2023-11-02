@@ -190,12 +190,23 @@
         }
         
         @media screen and (max-width:730px) {
+            main {
+                width: 90vw;
+            }
+            header img {
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                height: 200px;
+                padding-bottom: 11px;
+                overflow: hidden;
+            }
             header h1 {
+                display: none;
                 font-family: 'Roboto Slab', serif;
-                font-size: 1.7em;
-                margin: auto;
+                font-size: 1.5em;
                 padding-bottom: 10px;
-                text-align: center;
+                text-align: left;
                 text-shadow: 2px 2px 5px #e5e5e5;
             }
             /*Menu burguer*/
