@@ -192,8 +192,9 @@
         @media screen and (max-width:730px) {
             header h1 {
                 font-family: 'Roboto Slab', serif;
-                font-size: 2em;
+                font-size: 1.7em;
                 margin: auto;
+                padding-bottom: 10px;
                 text-align: center;
                 text-shadow: 2px 2px 5px #e5e5e5;
             }
@@ -249,6 +250,12 @@
             }
             /*Fim Index*/
             /* Serviço*/
+            #areadeatuacao {
+                background-image: url('imagens/fundo1.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: right bottom;
+            }
             #areadeatuacao .areas {
                 margin: auto;
                 margin-top: 15px;
