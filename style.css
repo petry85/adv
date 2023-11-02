@@ -79,7 +79,6 @@
         
         #quemsomos p {
             background-image: linear-gradient(to left, var(--cor1), var(--cor2));
-            backface-visibility: 60%;
             color: white;
             width: 60%;
             text-align: left;
@@ -96,6 +95,15 @@
             background-position: right;
             background-size: 60%;
             height: auto;
+        }
+        
+        #img_cel {
+            display: none;
+        }
+        /*Página serviços*/
+        
+        #menu_burguer {
+            display: none;
         }
         
         #areadeatuacao h2 {
@@ -183,10 +191,50 @@
                 text-align: center;
                 cursor: pointer;
             }
-            nav a {
+            #menu_itens {
                 display: none;
             }
+            nav>a {
+                display: block;
+                padding: 10px;
+                margin: 2px;
+                text-decoration: none;
+                text-align: center;
+                background-color: rgb(73, 73, 73);
+                color: whitesmoke;
+            }
+            nav>a:hover {
+                background-color: #999999;
+            }
             /*fim menu burguer*/
+            /*Index*/
+            #quemsomos p {
+                background-image: linear-gradient(to left, var(--cor1), var(--cor2));
+                color: white;
+                width: 90%;
+                height: 90%;
+                margin: auto;
+                text-align: justify;
+                padding-top: 15px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                text-indent: 20px;
+            }
+            #quemsomos_img {
+                background-image: none;
+            }
+            #img_cel {
+                display: block;
+                background-image: url('imagens/fundo2.jpg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 98%;
+                height: 350px;
+                margin: auto;
+            }
+            /*Fim Index*/
+            /* Serviço*/
             #areadeatuacao .areas {
                 margin: auto;
                 margin-top: 15px;
@@ -196,9 +244,6 @@
                 display: block;
                 justify-content: center;
             }
-            /*nav a {
-                    display: none;
-            }*/
             div#area2 {
                 padding-bottom: 20px;
             }
