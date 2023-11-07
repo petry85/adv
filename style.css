@@ -264,8 +264,11 @@
             #areadeatuacao {
                 background-image: url('imagens/fundo1.jpg');
                 background-repeat: no-repeat;
-                background-size: cover;
-                background-position: right bottom;
+                /*background-size: cover;*/
+                width: 700px;
+                top: 50%;
+                right: 50%;
+                background-position: right top;
             }
             #areadeatuacao .areas {
                 margin: auto;
