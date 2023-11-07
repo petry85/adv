@@ -188,6 +188,7 @@
             color: black;
             font-weight: bold;
         }
+        /* STYLE FOR PHONE */
         
         @media screen and (max-width:730px) {
             main {
@@ -262,10 +263,10 @@
             /*Fim Index*/
             /* Serviço*/
             #areadeatuacao {
-                background-image: url('imagens/fundopq.png');
+                background-image: url('imagens/fundo1.png');
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-position: right top;
+                background-position: right bottom;
             }
             #areadeatuacao .areas {
                 margin: auto;
