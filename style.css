@@ -265,7 +265,7 @@
                 background-image: url('imagens/fundopq.png');
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-position: right;
+                background-position: right top;
             }
             #areadeatuacao .areas {
                 margin: auto;
