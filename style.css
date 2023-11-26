@@ -252,10 +252,11 @@
                 background-image: none;
             }
             #img_cel {
-                display: block;
+                display: flex;
                 background-image: url('imagens/fundo2.jpg');
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: cover;
+                background-position: right top;
                 width: 98%;
                 height: 350px;
                 margin: auto;
